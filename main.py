@@ -146,7 +146,7 @@ def main():
     application.add_handler(CommandHandler("setmessage", set_message_command))
 
     application.add_handler(
-        BusinessMessageHandler(filters.TEXT & \~filters.COMMAND, business_message_handler)
+        BusinessMessageHandler(filters.TEXT & ~filters.COMMAND, business_message_handler)
     )
 
     # Webhook
