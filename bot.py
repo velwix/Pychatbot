@@ -13,7 +13,7 @@ from telegram.ext import (
 )
 
 # ==================== SOZLAMALAR ====================
-TOKEN = "8999047254:AAFsTqX9AoNhAiSL1JjKNDC3iZFAYt4GFIc"   # <-- O'ZGARTIRING
+TOKEN = "8999047254:AAEIFKdBS4xN8FHHor8fD0jCJzjH_dD6V-o"   # <-- O'ZGARTIRING
 
 # Logging
 logging.basicConfig(
