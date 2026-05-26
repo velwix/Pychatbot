@@ -155,7 +155,7 @@ def main():
         listen="0.0.0.0",
         port=PORT,
         url_path="webhook",
-        webhook_url=f"https://YOUR-APP-NAME.onrender.com/webhook"   # <-- Bu yerni o'zgartiring!
+        webhook_url=f"https://pychatbot-1.onrender.com/webhook"   # <-- Bu yerni o'zgartiring!
     )
 
 if __name__ == '__main__':
