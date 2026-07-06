@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: tma-auth-backend
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        value: "8835550608:AAFvbKiILl5wFDVvRVcd7viZJcU3VRHc5MQ" # Bot tokeningizni shu yerga yozing
